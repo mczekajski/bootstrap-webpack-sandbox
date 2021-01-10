@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-webpack-sandbox",
+  "version": "1.0.0",
+  "description": "Based on: https://www.youtube.com/watch?v=Lvxy5GaArvo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mczekajski/bootstrap-webpack-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mczekajski/bootstrap-webpack-sandbox/issues"
+  },
+  "homepage": "https://github.com/mczekajski/bootstrap-webpack-sandbox#readme",
+  "dependencies": {
+    "webpack": "^5.12.2",
+    "webpack-cli": "^4.3.1"
+  }
+}
