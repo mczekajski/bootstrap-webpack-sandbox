@@ -24,3 +24,9 @@ h1 {
 .jumpers figcaption {
 	margin-top: 8px;
 }
+.navbar {
+	min-height: 57px;
+}
+.bg-jumpers {
+	background-color: #91a33b;
+}

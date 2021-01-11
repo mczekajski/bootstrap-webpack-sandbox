@@ -22,6 +22,58 @@
   </head>
 
   <body>
+    <header>
+      <nav class="navbar navbar-dark bg-jumpers navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="img/logo.png"
+              width="30"
+              height="30"
+              class="d-inline-block me-3 align-bottom"
+              alt=""
+            />Skoki.pl</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-menu"
+            aria-controls="main-menu"
+            aria-expanded="false"
+            aria-label="Przełącznik nawigacji"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item"><a href="#" class="nav-link active">Start</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Zawody</a>
+
+                <ul class="dropdown-menu" aria-labelledby="submenu">
+                  <li><a href="#" class="dropdown-item">Terminarz zawodów</a></li>
+                  <li><a href="#" class="dropdown-item">Ranking Pucharu Świata</a></li>
+                  <li><div class="dropdown-divider"></div></li>
+                  <li><a href="#" class="dropdown-item">Sylwetki zawodników</a></li>
+                  <li><a href="#" class="dropdown-item">Skocznie narciarskie</a></li>
+                </ul>
+
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Zdjęcia</a></li>
+              <li class="nav-item"><a href="#" class="nav-link disabled">Wywiady</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Kontakt</a></li>
+            </ul>
+
+            <form class="d-flex">
+              <input type="search" class="form-control me-2" placeholder="Wyszukaj" aria-label="Wyszukaj">
+              <button class="btn btn-light" type="submit">Znajdź</button>
+          </form>
+
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <section class="jumpers">
         <div class="container">
@@ -36,15 +88,14 @@
           </header>
 
           <div class="row">
-            <div class="col-sm-6 col-md-5 offset-md-1">
-
+            <div class="col-sm-6 col-md-5 col-xl-3 offset-md-1 offset-xl-0">
               <figure>
                 <a href="#"><img src="img/malysz.jpg" alt="Adam Małysz" /></a>
                 <figcaption>Adam Małysz</figcaption>
               </figure>
             </div>
 
-            <div class="col-sm-6 col-md-5">
+            <div class="col-sm-6 col-md-5 col-xl-3">
               <figure>
                 <a href="#"><img src="img/stoch.jpg" alt="Kamil Stoch" /></a>
                 <figcaption>Kamil Stoch</figcaption>
